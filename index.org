@@ -1,0 +1,56 @@
+#+TITLE: Some notions
+#+AUTHOR: PCX
+
+Typically, the term “Web services” is used to label older, XML-based interfaces on top of HTTP.
+
+The term “Web APIs” is more fashionable for interfaces that use HTTP and JSON.
+
+But in my texts, Web services mean anything you can operate on the Web, which include the Web APIs.
+
+* REST
+  REST is an architectural style of network-based software architecture. The mostly mentioned REST style service/API (or other names) is the Web implementation of the REST. The text here only talks about the Web implementation.
+
+
+  REST services/APIs are Web based systems that
+  - build upon HTTP and URL,
+  - follow a set of *constraints*,
+  - to serve information in different representations like HTML, JSON, XML, MP3, etc.
+
+  *Resource* is the unit of information that identified by an URL and being transferred via HTTP between clients and services in the REST architectural system. An URL points to only 1 resource, a resource may be identified by more than 1 URLs.
+
+  #+CAPTION: Relationship between URL, Resource and Entity
+  #+ATTR_ORG: :width 200% :height 200%
+  #+ATTR_LaTeX: scale=0.75
+  #+LABEL: fig:url-res
+  [[file:REST/screenshot_2018-01-09_21-18-04.png]]
+
+  Self-claimed "REST" APIs are many, which are however just HTTP APIs. Because they didn't realize all the constraints of a REST styled system, they are simply APIs build with HTTP protocol. The constraints are:
+  - Client service architecture
+  - *Statelessness*
+  - Cacheability
+  - Layered system
+  - Code on demand
+  - Uniform interface
+    - Resource identification in requests
+    - Resource manipulation through *representations*
+    - *Self-descriptive* messages
+    - *Hypermedia* as the engine of application state (HATEOAS)
+
+  The [[https://rubenverborgh.github.io/WebFundamentals/web-apis/][slides]] made by Ruben Verborgh explains the REST very well. His series of slides [[https://rubenverborgh.github.io/WebFundamentals/web-apis/][Web Fundamentals]] also includes some other related notions like Semantic Web and Linked Data.
+
+* SemREST
+
+* Web Service Description
+
+* OpenAPI
+* Semantic Web
+** RDF
+* Semantic Web Services
+
+* Basics of Web
+
+** URL, URI, URN
+  [[https://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn][Stack Overflow - What is the difference between a URI, a URL and a URN?]]
+
+* Good Refs
+  https://rubenverborgh.github.io/WebFundamentals/
