@@ -1,11 +1,11 @@
 #+TITLE: Some notions
 #+AUTHOR: PCX
 
-Typically, the term “Web services” is used to label older, XML-based interfaces on top of HTTP.
+Typically, the term “Web services” is used to label the older, XML-based interfaces on top of HTTP.
 
 The term “Web APIs” is more fashionable for interfaces that use HTTP and JSON.
 
-But in my texts, Web services mean anything you can operate on the Web, which include the Web APIs.
+But in my texts, "Web services" means anything you can operate on the Web, which include the Web APIs.
 
 * REST
   REST is an architectural style of network-based software architecture. The mostly mentioned REST style service/API (or other names) is the Web implementation of the REST. The text here only talks about the Web implementation.
@@ -39,7 +39,8 @@ But in my texts, Web services mean anything you can operate on the Web, which in
   The [[https://rubenverborgh.github.io/WebFundamentals/web-apis/][slides]] made by Ruben Verborgh explains the REST very well. His series of slides [[https://rubenverborgh.github.io/WebFundamentals/web-apis/][Web Fundamentals]] also includes some other related notions like Semantic Web and Linked Data.
 
 * SemREST
-
+Semantic RESource Tagging (SemREST) is an approach to add semantic annotation to resource in Web service description. A naming coincidence to the SemREST: A Java Framework for the Semantic Extension of RESTful Web Services.
+ 
 * Web Service Description
 
 * OpenAPI
