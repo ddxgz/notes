@@ -39,19 +39,41 @@ But in my texts, "Web services" means anything you can operate on the Web, which
   The [[https://rubenverborgh.github.io/WebFundamentals/web-apis/][slides]] made by Ruben Verborgh explains the REST very well. His series of slides [[https://rubenverborgh.github.io/WebFundamentals/web-apis/][Web Fundamentals]] also includes some other related notions like Semantic Web and Linked Data.
 
 * SemREST
-Semantic RESource Tagging (SemREST) is an approach to add semantic annotation to resource in Web service description. A naming coincidence to the SemREST: A Java Framework for the Semantic Extension of RESTful Web Services.
- 
+  Semantic RESource Tagging (SemREST) is an approach to add semantic annotation to resource in Web service description. A naming coincidence to the SemREST: A Java Framework for the Semantic Extension of RESTful Web Services.
+
 * Web Service Description
 
-* OpenAPI
+  #+CAPTION: Relation of Service Descriptions
+  #+ATTR_ORG: :width 200% :height 200%
+  #+ATTR_HTML: scale=0.75
+  #+ATTR_LaTeX: scale=0.75
+  #+LABEL: fig:rel_desc
+  [[file:SemanticWeb/description-relation.png]]
 * Semantic Web
+  In short, Semantic web is an extension of the current web, for the purpose of data interoperability. With the common framework, specifically RDF, to represent the data on the web with semantic meaning, to make it machine understandable.
+
+  #+BEGIN_QUOTE
+  [[http://learning.maxtech4u.com/an-introduction-of-semantic-web/][Ref]]
+  The current WWW has a huge amount of data that is often unstructured and usually only human understandable. The Semantic Web aims to address this problem by providing machine interpretable semantics to provide greater machine support for the user. Semantic Web is an extension of the current web in which information is given well-defined meaning, better enabling computers and people to work in co-operation. The semantic web will provide intelligent access to heterogeneous, distributed information enabling software products to mediate between user needs and the information source available.
+  #+END_QUOTE
+
+  #+CAPTION: Map of Semantic Web
+  #+ATTR_ORG: :width 200% :height 200%
+  #+ATTR_HTML: scale=0.75
+  #+ATTR_LaTeX: scale=0.75
+  #+LABEL: fig:map_semweb
+  [[file:SemanticWeb/semweb.png]]
+
 ** RDF
-* Semantic Web Services
+** Semantic Web Services
+
 
 * Basics of Web
 
 ** URL, URI, URN
-  [[https://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn][Stack Overflow - What is the difference between a URI, a URL and a URN?]]
+   [[https://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn][Stack Overflow - What is the difference between a URI, a URL and a URN?]]
+
+* OpenAPI
 
 * Good Refs
   https://rubenverborgh.github.io/WebFundamentals/
