@@ -57,6 +57,14 @@ But in my texts, "Web services" means anything you can operate on the Web, which
   The current WWW has a huge amount of data that is often unstructured and usually only human understandable. The Semantic Web aims to address this problem by providing machine interpretable semantics to provide greater machine support for the user. Semantic Web is an extension of the current web in which information is given well-defined meaning, better enabling computers and people to work in co-operation. The semantic web will provide intelligent access to heterogeneous, distributed information enabling software products to mediate between user needs and the information source available.
   #+END_QUOTE
 
+  #+CAPTION: Semantic Web Stack
+  #+ATTR_ORG: :width 200% :height 200%
+  #+ATTR_HTML: scale=0.75
+  #+ATTR_LaTeX: scale=0.75
+  #+LABEL: fig:stack_semweb
+  [[file:SemanticWeb/semweb-stack.png]]
+
+
   #+CAPTION: Map of Semantic Web
   #+ATTR_ORG: :width 200% :height 200%
   #+ATTR_HTML: scale=0.75
@@ -65,15 +73,28 @@ But in my texts, "Web services" means anything you can operate on the Web, which
   [[file:SemanticWeb/semweb.png]]
 
 ** RDF
+   
+** Linked Data
+
 ** Semantic Web Services
+   Semantic web services is a combine of web services and semantic web, is to add semantic annotation to web services to make it have semantic meaning with its functionalities, interfaces, even exchanged data.
+
+   #+CAPTION: Web Services and Semantic Web Services
+   #+ATTR_ORG: :width 200% :height 200%
+   #+ATTR_HTML: scale=0.75
+   #+ATTR_LaTeX: scale=0.75
+   #+LABEL: fig:ws-sws
+   [[file:SemanticWeb/web-sws.png]]
+
+* OpenAPI
+  [[https://swagger.io/specification/][OpenAPI Specification | Swagger]]
+
 
 
 * Basics of Web
 
 ** URL, URI, URN
    [[https://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn][Stack Overflow - What is the difference between a URI, a URL and a URN?]]
-
-* OpenAPI
 
 * Good Refs
   https://rubenverborgh.github.io/WebFundamentals/
