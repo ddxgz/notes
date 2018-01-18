@@ -20,6 +20,7 @@ But in my texts, "Web services" means anything you can operate on the Web, which
 
   #+CAPTION: Relationship between URL, Resource and Entity
   #+ATTR_ORG: :width 200% :height 200%
+  #+ATTR_HTML: :width 80% :height 80%
   #+ATTR_LaTeX: scale=0.75
   #+LABEL: fig:url-res
   [[file:REST/screenshot_2018-01-09_21-18-04.png]]
@@ -65,6 +66,13 @@ But in my texts, "Web services" means anything you can operate on the Web, which
   [[file:SemanticWeb/semweb-stack.png]]
 
 
+  #+CAPTION: Semantic Web Technology Stack
+  #+ATTR_ORG: :width 200% :height 200%
+  #+ATTR_HTML: scale=0.75
+  #+ATTR_LaTeX: scale=0.75
+  #+LABEL: fig:tech_stack_semweb
+  [[file:SemanticWeb/semanticweb_technology_stack.png]]
+
   #+CAPTION: Map of Semantic Web
   #+ATTR_ORG: :width 200% :height 200%
   #+ATTR_HTML: scale=0.75
@@ -73,7 +81,7 @@ But in my texts, "Web services" means anything you can operate on the Web, which
   [[file:SemanticWeb/semweb.png]]
 
 ** RDF
-   
+
 ** Linked Data
 
 ** Semantic Web Services
@@ -81,7 +89,7 @@ But in my texts, "Web services" means anything you can operate on the Web, which
 
    #+CAPTION: Web Services and Semantic Web Services
    #+ATTR_ORG: :width 200% :height 200%
-   #+ATTR_HTML: scale=0.75
+   #+ATTR_HTML: :width 60% :height 60%
    #+ATTR_LaTeX: scale=0.75
    #+LABEL: fig:ws-sws
    [[file:SemanticWeb/web-sws.png]]
