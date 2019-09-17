@@ -18,7 +18,7 @@ But in my texts, "Web services" means anything you can operate on the Web, which
 
   *Resource* is the unit of information that identified by an URL and being transferred via HTTP between clients and services in the REST architectural system. An URL points to only 1 resource, a resource may be identified by more than 1 URLs.
 
-  #+CAPTION: Relationship between URL, Resource and Entity
+  #+CAPTION: Relationship between URL, Resource and Entity ([[https://rubenverborgh.github.io/WebFundamentals/web-apis/][from Ruben Verborgh's slides]])
   #+ATTR_ORG: :width 200% :height 200%
   #+ATTR_HTML: :width 80% :height 80%
   #+ATTR_LaTeX: scale=0.75
@@ -58,7 +58,7 @@ But in my texts, "Web services" means anything you can operate on the Web, which
   The current WWW has a huge amount of data that is often unstructured and usually only human understandable. The Semantic Web aims to address this problem by providing machine interpretable semantics to provide greater machine support for the user. Semantic Web is an extension of the current web in which information is given well-defined meaning, better enabling computers and people to work in co-operation. The semantic web will provide intelligent access to heterogeneous, distributed information enabling software products to mediate between user needs and the information source available.
   #+END_QUOTE
 
-  #+CAPTION: Semantic Web Stack
+  #+CAPTION: Semantic Web Stack ([[https://open.hpi.de/courses/semanticweb][graph from this this mooc]])
   #+ATTR_ORG: :width 200% :height 200%
   #+ATTR_HTML: scale=0.75
   #+ATTR_LaTeX: scale=0.75
@@ -66,7 +66,7 @@ But in my texts, "Web services" means anything you can operate on the Web, which
   [[file:SemanticWeb/semweb-stack.png]]
 
 
-  #+CAPTION: Semantic Web Technology Stack
+  #+CAPTION: Semantic Web Technology Stack ([[https://open.hpi.de/courses/semanticweb][graph from this this mooc]])
   #+ATTR_ORG: :width 200% :height 200%
   #+ATTR_HTML: scale=0.75
   #+ATTR_LaTeX: scale=0.75
@@ -87,7 +87,7 @@ But in my texts, "Web services" means anything you can operate on the Web, which
 ** Semantic Web Services
    Semantic web services is a combine of web services and semantic web, is to add semantic annotation to web services to make it have semantic meaning with its functionalities, interfaces, even exchanged data.
 
-   #+CAPTION: Web Services and Semantic Web Services
+   #+CAPTION: Web Services and Semantic Web Services ([[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.469.9295&rep=rep1&type=pdf][see more in this long slides]])
    #+ATTR_ORG: :width 200% :height 200%
    #+ATTR_HTML: :width 60% :height 60%
    #+ATTR_LaTeX: scale=0.75
@@ -101,8 +101,10 @@ But in my texts, "Web services" means anything you can operate on the Web, which
 
 * Basics of Web
 
-** URL, URI, URN
+** IRI, URL, URI, URN
    [[https://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn][Stack Overflow - What is the difference between a URI, a URL and a URN?]]
+   
+   [[https://blog.4psa.com/url-urn-uri-iri-why-so-many/][IRI, URI]]
 
 * Good Refs
   https://rubenverborgh.github.io/WebFundamentals/
